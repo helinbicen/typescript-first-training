@@ -1,0 +1,75 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  height: max-content;
+
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  border: 3px solid #383838;
+}
+
+button {
+  background-color: whitesmoke;
+  margin-left: 0.5rem;
+  border-radius: 0.2rem;
+  border: 3px solid #383838;
+  cursor: pointer;
+}
+
+h1 {
+  color: #000;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+h2 {
+  font-size: 12px;
+  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+p {
+  font-size: 10px;
+  /* background-color: black; */
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(14, 16, 72);
+  gap: 0.2rem;
+  width: 500px;
+  border-radius: 0.5rem;
+  border: 3px solid white;
+  padding: 1rem 0.8rem;
+}
+
+.filteredCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+hr {
+  width: 100%;
+  background-color: white;
+}
